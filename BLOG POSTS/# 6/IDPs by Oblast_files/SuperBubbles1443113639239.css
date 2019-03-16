@@ -1,0 +1,65 @@
+/** Your CSS code goes here */
+.powerbi-sample-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.powerbi-sample-table th {
+  display: none;
+}
+.powerbi-sample-table td {
+  display: block;
+}
+.powerbi-sample-table td:first-child {
+  padding-top: .5em;
+}
+.powerbi-sample-table td:last-child {
+  padding-bottom: .5em;
+}
+.powerbi-sample-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+
+.powerbi-sample-table .dynamic td:before {
+  display: none;
+}
+
+.powerbi-sample-table th, .powerbi-sample-table td {
+  text-align: left;
+}
+
+.powerbi-sample-table .dynamic th, .powerbi-sample-table .dynamic td {
+  display: table-cell;
+  padding: .25em .5em;
+}
+.powerbi-sample-table .dynamic th:first-child, .powerbi-sample-table .dynamic td:first-child {
+  padding-left: 0;
+}
+.powerbi-sample-table .dynamic th:last-child, .powerbi-sample-table .dynamic td:last-child {
+  padding-right: 0;
+}
+
+.powerbi-sample-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.powerbi-sample-table tr {
+  border-color: #46627f;
+}
+.powerbi-sample-table th, .powerbi-sample-table td {
+  margin: .5em 1em;
+}
+
+.powerbi-sample-table .dynamic th, .powerbi-sample-table .dynamic td {
+  padding: 1em !important;
+}
+
+.powerbi-sample-table th, .powerbi-sample-table td:before {
+  color: #dd5;
+}
+
+.visual-icon.SuperBubbles1443113639239{ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNvyMY98AAAI+SURBVDhPhZRPS1RRHIbPByho0aZFFDSBLYqEK6OQM6l3vA7eO3P6o5U3qChGSopRQUQdEQI3QVMLCbIoaVkQCEW0aBVE1KIW9QFcRS2CalG7nuGV0+U0ILyLcznn+f15z/ldYzpslNipiWrvoN15yHZ0hrsORvPptU/LK6/mbwQDp89Fiw17F5X7Jq5Whj/PHP22WPjaKDytlcz6avL7Qyyt3awQC/LXyiOJEDu67Z58GY1GIdjGXFGCNzDf327qz8d4/GKVhA5GpdJIrivZHhx7U+93pGR+vPsH/3wfP7lTuXelkYX39dgDPRaYgreGqZxqRdICaYEpvk1mShVJFNaV49XD6SWU7z1Ln5Nxc/XMc8QCt/yeMQmSzr+8jqfHB7rqk9GLNZRfmMXeB2MvBbMIgtr10bIwRCGG69mdHyIhhW3b33+kuSy47+HtU4WlLMyd0TnCQrlgwmKtOfJYh9im4NL6faTKs3Cuc4zM2Ka0dGG0507A57pjAuMTFSk0ooVb6VC2Z9bGxZY4h0/AOKSHBU8UIjrMqQ3MUdcIUjknB5Ns2jYwa1Jx1IuIePm06sOyVCIh5cF7JFu4hUlZnrXhMbNBNizRANCtl5lPXEDipdZU8Ta4ahLKZJS9IZHUghFs6ZLPh8OMKlRrqtK0ujewDADvRKIKeSbSzQZ3++xySH5um0UL5k/ARppcYBgZCf0GyEBEGN0cPKc9w1swJXljKDFSVKGcnlubMH+S6RN1D3OiHEhe5f/kxlzxL+OdNXo+I3iBAAAAAElFTkSuQmCC);}
